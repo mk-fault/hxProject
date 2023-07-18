@@ -25,6 +25,7 @@ urlpatterns = [
     path('api/stats/',include('stats.urls')),
     path('api/wb/',include('wb.urls')),
     path('api/who/',include('who.urls')),
+    path('api/oecd/',include('oecd.urls')),
     path('api/docs/',include_docs_urls(title='录取通知书API文档')),
 ]
 
