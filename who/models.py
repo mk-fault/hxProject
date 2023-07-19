@@ -4,7 +4,8 @@ from django.db import models
 class WHOModel(models.Model):
     IndicatorCode = models.CharField(max_length=50,verbose_name='指标代码',help_text='指标代码')
     SpatialDimType = models.CharField(max_length=30,verbose_name='空间维度类型',help_text='空间维度类型',blank=True,null=True)
-    SpatialDim = models.CharField(max_length=60,verbose_name='空间维度',help_text='空间维度',blank=True,null=True)
+    SpatialDim = models.CharField(max_length=60,verbose_name='空间维度代码',help_text='空间维度代码',blank=True,null=True)
+    SpatialDimDetail = models.CharField(max_length=40,verbose_name='空间维度',help_text='空间维度',blank=True,null=True)
     TimeDimType = models.CharField(max_length=10,verbose_name='时间维度类型',help_text='时间维度类型',blank=True,null=True)
     TimeDim = models.IntegerField(verbose_name='时间维度',help_text='时间维度',blank=True,null=True)
     Dim1Type = models.CharField(max_length=30,verbose_name='维度1类型',help_text='维度1类型',blank=True,null=True)
