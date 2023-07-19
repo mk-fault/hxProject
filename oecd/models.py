@@ -1,3 +1,4 @@
+
 from django.db import models
 
 # Create your models here.
@@ -13,8 +14,8 @@ class OECDModel_T1(models.Model):
     Country = models.CharField(max_length=50,verbose_name='Country',help_text='Country')
     Year = models.IntegerField(verbose_name='Year',help_text='Year')
     Value = models.FloatField(verbose_name='Value',help_text='Value')
-    Flag_codes = models.CharField(max_length=12,verbose_name='Flag_codes',help_text='Flag_codes')
-    Flags = models.CharField(max_length=80,verbose_name='Flags',help_text='Flags')
+    Flag_codes = models.CharField(max_length=12,verbose_name='Flag_codes',help_text='Flag_codes',blank=True,null=True)
+    Flags = models.CharField(max_length=80,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
         verbose_name = 'OECDModel_T1'
@@ -30,9 +31,9 @@ class OECDModel_T2(models.Model):
     Country_code = models.CharField(max_length=4,verbose_name='Country代码',help_text='Country代码')
     Country = models.CharField(max_length=50,verbose_name='Country',help_text='Country')
     Year = models.IntegerField(verbose_name='Year',help_text='Year')
-    Value = models.FloatField(verbose_name='Value',help_text='Value')
-    Flag_codes = models.CharField(max_length=12,verbose_name='Flag_codes',help_text='Flag_codes')
-    Flags = models.CharField(max_length=80,verbose_name='Flags',help_text='Flags')
+    Value = models.FloatField(verbose_name='Value',help_text='Value',blank=True,null=True)
+    Flag_codes = models.CharField(max_length=12,verbose_name='Flag_codes',help_text='Flag_codes',blank=True,null=True)
+    Flags = models.CharField(max_length=80,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
         verbose_name = 'OECDModel_T2'
@@ -51,8 +52,8 @@ class OECDModel_T3(models.Model):
     Country = models.CharField(max_length=30,verbose_name='Country',help_text='Country')
     Year = models.IntegerField(verbose_name='Year',help_text='Year')
     Value = models.FloatField(verbose_name='Value',help_text='Value')
-    Flag_codes = models.CharField(max_length=4,verbose_name='Flag_codes',help_text='Flag_codes')
-    Flags = models.CharField(max_length=30,verbose_name='Flags',help_text='Flags')
+    Flag_codes = models.CharField(max_length=4,verbose_name='Flag_codes',help_text='Flag_codes',blank=True,null=True)
+    Flags = models.CharField(max_length=30,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
         verbose_name = 'OECDModel_T3'
@@ -77,8 +78,8 @@ class OECDModel_T4(models.Model):
     PowerCode = models.CharField(max_length=12,verbose_name='PowerCode',help_text='PowerCode')
     Year = models.IntegerField(verbose_name='Year',help_text='Year')
     Value = models.FloatField(verbose_name='Value',help_text='Value')
-    Flag_codes = models.CharField(max_length=12,verbose_name='Flag_codes',help_text='Flag_codes')
-    Flags = models.CharField(max_length=80,verbose_name='Flags',help_text='Flags')
+    Flag_codes = models.CharField(max_length=12,verbose_name='Flag_codes',help_text='Flag_codes',blank=True,null=True)
+    Flags = models.CharField(max_length=80,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
         verbose_name = 'OECDModel_T4'
@@ -94,9 +95,9 @@ class OECDModel_T5(models.Model):
     Country_of_origin_code = models.CharField(max_length=4,verbose_name='Country_of_origin代码',help_text='Country_of_origin代码')
     Country_of_origin = models.CharField(max_length=50,verbose_name='Country_of_origin',help_text='Country_of_origin')
     Year = models.IntegerField(verbose_name='Year',help_text='Year')
-    Value = models.FloatField(verbose_name='Value',help_text='Value')
-    Flag_codes = models.CharField(max_length=4,verbose_name='Flag_codes',help_text='Flag_codes')
-    Flags = models.CharField(max_length=30,verbose_name='Flags',help_text='Flags')
+    Value = models.FloatField(verbose_name='Value',help_text='Value',blank=True,null=True)
+    Flag_codes = models.CharField(max_length=4,verbose_name='Flag_codes',help_text='Flag_codes',blank=True,null=True)
+    Flags = models.CharField(max_length=30,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
         verbose_name = 'OECDModel_T5'
@@ -115,10 +116,10 @@ class OECDModel_T6(models.Model):
     Age_Group = models.CharField(max_length=30,verbose_name='Age_Group',help_text='Age_Group')
     Value_code = models.CharField(max_length=20,verbose_name='Measure代码',help_text='Measure代码')
     Value = models.CharField(max_length=70,verbose_name='Measure',help_text='Measure')
-    Year = models.IntegerField(verbose_name='Year',help_text='Year')
+    Periods = models.CharField(max_length=12,verbose_name='Periods',help_text='Periods',blank=True,null=True)
     NumericValue = models.FloatField(verbose_name='NumericValue',help_text='NumericValue')
-    Flag_codes = models.CharField(max_length=8,verbose_name='Flag_codes',help_text='Flag_codes')
-    Flags = models.CharField(max_length=40,verbose_name='Flags',help_text='Flags')
+    Flag_codes = models.CharField(max_length=8,verbose_name='Flag_codes',help_text='Flag_codes',blank=True,null=True)
+    Flags = models.CharField(max_length=40,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
         verbose_name = 'OECDModel_T6'
@@ -138,8 +139,8 @@ class OECDModel_T7(models.Model):
     Variable = models.CharField(max_length=50,verbose_name='Variable',help_text='Variable')
     Year = models.IntegerField(verbose_name='Year',help_text='Year')
     Value = models.FloatField(verbose_name='Value',help_text='Value')
-    Flag_codes = models.CharField(max_length=4,verbose_name='Flag_codes',help_text='Flag_codes')
-    Flags = models.CharField(max_length=30,verbose_name='Flags',help_text='Flags')
+    Flag_codes = models.CharField(max_length=4,verbose_name='Flag_codes',help_text='Flag_codes',blank=True,null=True)
+    Flags = models.CharField(max_length=30,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
         verbose_name = 'OECDModel_T7'

@@ -9,7 +9,6 @@ from .models import WHOModel
 from .serializers import WHOModelSerializer
 from stats.pagination import MyPageNumberPagination
 
-import pandas as pd
 
 # Create your views here.
 '''
@@ -21,13 +20,13 @@ class WHO(APIView):
 
     def get(self,request):
         # 获取code参数(必填)
-        code = request.query_params.get('code')
-        spatialtype = request.query_params.get('spatialtype',None)
-        spatial = request.query_params.get('spatial',None)
-        time = request.query_params.get('year',None)
-        dim1 = request.query_params.get('dim1',None)
-        dim2 = request.query_params.get('dim2',None)
-        dim3 = request.query_params.get('dim3',None)
+        code = request.query_params.get('CODE')
+        spatialtype = request.query_params.get('SPAT',None)
+        spatial = request.query_params.get('SPA',None)
+        time = request.query_params.get('YEAR',None)
+        dim1 = request.query_params.get('D1',None)
+        dim2 = request.query_params.get('D2',None)
+        dim3 = request.query_params.get('D3',None)
         if not code:
             return Response({'code':30000,'msg':'code参数必填'},status=status.HTTP_400_BAD_REQUEST)
         # 获取数据
@@ -55,14 +54,42 @@ class WHO(APIView):
 class IndexList(APIView):
     permission_classes = [IsAuthenticatedOrReadOnly,]
 
+    @staticmethod
+    def remove_duplicates(lst):
+        unique = set(frozenset(d.items()) for d in lst)
+        return [dict(s) for s in unique]
+
     def get(self,request):
         # 获取code参数(必填)
-        code = request.query_params.get('code')
+        code = request.query_params.get('CODE')
         if not code:
             return Response({'code':30001,'msg':'code参数必填'},status=status.HTTP_400_BAD_REQUEST)
         
         # 获取数据
         queryset = WHOModel.objects.filter(IndicatorCode=code).order_by('SpatialDim')
+
+        # SpatialDimType_list = queryset.values('SpatialDimType').distinct()
+        # SpatialDimType_list = self.remove_duplicates(SpatialDimType_list)
+        # Dim1_list = queryset.values('Dim1Type','Dim1').distinct()
+        # Dim1_list = self.remove_duplicates(Dim1_list)
+        # Dim2_list = queryset.values('Dim2Type','Dim2').distinct()
+        # Dim2_list = self.remove_duplicates(Dim2_list)
+        # Dim3_list = queryset.values('Dim3Type','Dim3').distinct()
+        # Dim3_list = self.remove_duplicates(Dim3_list)
+        # SpatialDim_list = queryset.values('SpatialDim','SpatialDimDetail').distinct()
+        # SpatialDim_list = self.remove_duplicates(SpatialDim_list)
+        # Year_list = list(set(queryset.values_list('TimeDim',flat=True)))
+        # Year_list.sort()
+        # # 返回数据
+        # return Response({
+        #     'SpatialDimType_list':SpatialDimType_list,
+        #     'Dim1_list':Dim1_list,
+        #     'Dim2_list':Dim2_list,
+        #     'Dim3_list':Dim3_list,
+        #     'SpatialDim_list':SpatialDim_list,
+        #     'Year_list':Year_list,
+        # },status=status.HTTP_200_OK)
+
 
         # 制作空间维度字典
         lst = queryset.values_list('SpatialDimType',flat=True)

@@ -21,7 +21,7 @@ class QG(APIView):
 
     def get(self,request):
         # 获取code参数(必填)
-        code = request.query_params.get('code')
+        code = request.query_params.get('CODE')
         if not code:
             return Response({'code':10000,'msg':'code参数必填'},status=status.HTTP_400_BAD_REQUEST)
         # 获取数据
