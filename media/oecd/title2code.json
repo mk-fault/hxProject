@@ -1,0 +1,446 @@
+{
+    "Health": {
+        "COVID-19 Health Indicators": {
+            "Mortality (by week)": {
+                "Mortality by week": {
+                    "code": "56aaff74",
+                    "type": "type3"
+                },
+                "Excess deaths by week, 2020-2023": {
+                    "code": "267ce49a",
+                    "type": "type7"
+                },
+                "COVID deaths by week, 2020-2023": {
+                    "code": "a1f0a411",
+                    "type": "type7"
+                }
+            }
+        },
+        "Health expenditure and financing": {
+            "Health expenditure and financing": {
+                "code": "389969b1",
+                "type": "type4"
+            },
+            "Revenues of health care financing schemes": {
+                "code": "ae541e6a",
+                "type": "type1"
+            },
+            "Input costs for health care providers": {
+                "code": "0acdd44a",
+                "type": ""
+            },
+            "Gross fixed capital formation in the health care system": {
+                "code": "5e4126a3",
+                "type": ""
+            },
+            "Expenditure by disease, age and gender under the System of Health Accounts (SHA) Framework": {
+                "Current health spending by disease (ICD)": {
+                    "code": "f1c67887",
+                    "type": ""
+                },
+                "Inpatient/Hospital spending by disease (ICD)": {
+                    "code": "61cb4cfb",
+                    "type": ""
+                },
+                "Outpatient/ambulatory spending by disease (ICD)": {
+                    "code": "002932ff",
+                    "type": ""
+                },
+                "Medical goods spending by disease (ICD)": {
+                    "code": "549eeb3f",
+                    "type": ""
+                },
+                "Current health spending by age": {
+                    "code": "3b3141bb",
+                    "type": ""
+                }
+            }
+        },
+        "Health Status": {
+            "Health Status - Key Indicators": {
+                "code": "7cbea926",
+                "type": "type2"
+            },
+            "Mortality": {
+                "code": "a2c2bd98",
+                "type": "type2"
+            },
+            "Life expectancy": {
+                "code": "df3327c3",
+                "type": "type2"
+            },
+            "Causes of mortality": {
+                "code": "5a429c68",
+                "type": "type2"
+            },
+            "Maternal and infant mortality": {
+                "code": "b5532114",
+                "type": "type2"
+            },
+            "Potential years of life lost": {
+                "code": "c5d1a7d5",
+                "type": "type2"
+            },
+            "Avoidable mortality": {
+                "code": "020e883e",
+                "type": "type2"
+            },
+            "Morbidity": {
+                "code": "44c826c1",
+                "type": "type2"
+            },
+            "Perceived health status": {
+                "code": "1b88934d",
+                "type": "type2"
+            },
+            "Perceived health status by age and gender": {
+                "code": "92f4bc20",
+                "type": "type2"
+            },
+            "Perceived health status by socio-economic status": {
+                "code": "e87a27b3",
+                "type": "type2"
+            },
+            "Infant health: low birthweight": {
+                "code": "60a8bbb3",
+                "type": ""
+            },
+            "Communicable diseases": {
+                "code": "ad648f41",
+                "type": "type2"
+            },
+            "Cancer": {
+                "code": "7463543d",
+                "type": "type2"
+            },
+            "Injuries": {
+                "code": "e0be1bd9",
+                "type": "type2"
+            },
+            "Absence from work due to illness": {
+                "code": "c023539b",
+                "type": "type2"
+            }
+        },
+        "Non-Medical Determinants of Health": {
+            "Non-Medical Determinants of Health - Key Indicators": {
+                "code": "a38941d5",
+                "type": "type2"
+            },
+            "Tobacco consumption": {
+                "code": "4a1dd2b7",
+                "type": "type2"
+            },
+            "Use of vaping products": {
+                "code": "a31a29b6",
+                "type": "type2"
+            },
+            "Alcohol consumption": {
+                "code": "f81e4a16",
+                "type": "type2"
+            },
+            "Food supply and consumption": {
+                "code": "11f0604b",
+                "type": "type2"
+            },
+            "Body weight": {
+                "code": "9abeb620",
+                "type": "type2"
+            }
+        },
+        "Healthcare Resources": {
+            "Healthcare Resources": {
+                "code": "88dbb566",
+                "type": "type2"
+            },
+            "Total health and social employment": {
+                "code": "8fce99b5",
+                "type": "type2"
+            },
+            "Physicians": {
+                "code": "417f3a64",
+                "type": "type2"
+            },
+            "Physicians by age and gender": {
+                "code": "2b39b709",
+                "type": "type2"
+            },
+            "Physicians by categories": {
+                "code": "49b84f71",
+                "type": "type2"
+            },
+            "Midwives": {
+                "code": "73731b02",
+                "type": "type2"
+            },
+            "Nurses": {
+                "code": "bee801c6",
+                "type": "type2"
+            },
+            "Caring personnel (Personal care workers)": {
+                "code": "28c0efeb",
+                "type": "type2"
+            },
+            "Dentists": {
+                "code": "61f43e56",
+                "type": "type2"
+            },
+            "Pharmacists": {
+                "code": "1544de43",
+                "type": "type2"
+            },
+            "Physiotherapists": {
+                "code": "4b7a99c9",
+                "type": "type2"
+            },
+            "Hospital employment": {
+                "code": "fb8aa79a",
+                "type": "type2"
+            },
+            "Graduates": {
+                "code": "2eef1170",
+                "type": "type2"
+            },
+            "Remuneration of health professionals": {
+                "code": "21a13575",
+                "type": "type2"
+            },
+            "Hospitals": {
+                "code": "2bc84779",
+                "type": "type2"
+            },
+            "Hospital beds by sector": {
+                "code": "58b9b0fa",
+                "type": "type2"
+            },
+            "Hospital beds by function of healthcare": {
+                "code": "1e600e80",
+                "type": "type2"
+            },
+            "Intensive care unit (ICU) beds and use": {
+                "code": "af6b1884",
+                "type": "type2"
+            },
+            "Medical technology": {
+                "code": "ce174312",
+                "type": "type2"
+            }
+        },
+        "Health Workforce Migration": {
+            "Health Workforce Migration": {
+                "code": "3cdcc68a",
+                "type": "type5"
+            },
+            "Migration of doctors": {
+                "code": "09fd784c",
+                "type": "type5"
+            },
+            "Migration of nurses": {
+                "code": "82746014",
+                "type": "type5"
+            },
+            "Foreign-trained doctors by country of origin - Stock": {
+                "code": "14dafa50",
+                "type": "type5"
+            },
+            "Foreign-trained doctors by country of origin - Annual inflow": {
+                "code": "57410b67",
+                "type": "type5"
+            },
+            "Foreign-trained nurses by country of origin - Stock": {
+                "code": "f18dc62c",
+                "type": "type5"
+            },
+            "Foreign-trained nurses by country of origin - Annual inflow": {
+                "code": "07850829",
+                "type": "type5"
+            }
+        },
+        "Healthcare Utilisation": {
+            "Healthcare Utilisation - Key Indicators": {
+                "code": "8de6e7e3",
+                "type": "type2"
+            },
+            "Consultations": {
+                "code": "e64629de",
+                "type": "type2"
+            },
+            "Immunisation": {
+                "code": "651aca54",
+                "type": "type2"
+            },
+            "Screening": {
+                "code": "db75517a",
+                "type": "type2"
+            },
+            "Hospital aggregates": {
+                "code": "5b468f61",
+                "type": "type2"
+            },
+            "Hospital discharges by diagnostic categories": {
+                "code": "4dcb8c25",
+                "type": "type2"
+            },
+            "Hospital average length of stay by diagnostic categories": {
+                "code": "403719a9",
+                "type": "type2"
+            },
+            "Diagnostic exams": {
+                "code": "98fdd727",
+                "type": "type2"
+            },
+            "Surgical procedures": {
+                "code": "40e774f4",
+                "type": "type2"
+            },
+            "Waiting times": {
+                "code": "94841b46",
+                "type": "type2"
+            }
+        },
+        "Healthcare Quality Indicators": {
+            "Healthcare Quality Indicators": {
+                "code": "8b42928e",
+                "type": "type6"
+            },
+            "Prescribing in primary care": {
+                "code": "493148ba",
+                "type": "type6"
+            },
+            "Acute Care": {
+                "code": "f8663b38",
+                "type": "type6"
+            },
+            "Cancer Care": {
+                "code": "2cb07db9",
+                "type": "type6"
+            },
+            "Mental Healthcare": {
+                "code": "3811ef5c",
+                "type": "type6"
+            },
+            "Patient Experiences": {
+                "code": "6dc63199",
+                "type": "type6"
+            },
+            "End-of-life care": {
+                "code": "3a410a0b",
+                "type": "type6"
+            },
+            "Integrated care": {
+                "code": "0d6e2c00",
+                "type": "type6"
+            },
+            "Mental Health - Patient Reported Experience Measures": {
+                "code": "da9bb0ef",
+                "type": ""
+            },
+            "Patient Safety": {
+                "code": "7fca8f4d",
+                "type": "type6"
+            },
+            "Primary Care": {
+                "code": "5669afa5",
+                "type": "type6"
+            }
+        },
+        "Pharmaceutical Market": {
+            "Pharmaceutical Market - Key Indicators": {
+                "code": "6790a3db",
+                "type": "type2"
+            },
+            "Pharmaceutical consumption": {
+                "code": "d9e48b50",
+                "type": "type2"
+            },
+            "Pharmaceutical sales": {
+                "code": "2a0b9a6d",
+                "type": "type2"
+            },
+            "Generic market": {
+                "code": "590cd0a8",
+                "type": "type2"
+            }
+        },
+        "Long-Term Care Resources and Utilisation": {
+            "Long-Term Care Resources and Utilisation - Key Indicators": {
+                "code": "9dc09f33",
+                "type": "type2"
+            },
+            "Long-term care workers: formal sector": {
+                "code": "e2b42b4b",
+                "type": ""
+            },
+            "Formal long-term care workers at home": {
+                "code": "613894b7",
+                "type": "type2"
+            },
+            "Formal long-term care workers in institutions": {
+                "code": "9a11aa22",
+                "type": "type2"
+            },
+            "Long-term care formal workers: Working conditions": {
+                "code": "db0ff87c",
+                "type": ""
+            },
+            "Beds in residential long-term care facilities": {
+                "code": "ea8c447e",
+                "type": "type2"
+            },
+            "Long-term care recipients": {
+                "code": "b543ef1c",
+                "type": "type2"
+            }
+        },
+        "Social Protection": {
+            "Social Protection - Key Indicators": {
+                "code": "96f4c97d",
+                "type": "type2"
+            },
+            "Total public and primary voluntary health insurance": {
+                "code": "acd94988",
+                "type": "type2"
+            },
+            "Government/compulsory health insurance": {
+                "code": "432c9323",
+                "type": ""
+            },
+            "Voluntary health insurance": {
+                "code": "73808cc0",
+                "type": "type2"
+            }
+        },
+        "Demographic References": {
+            "Demographic References - Key Indicators": {
+                "code": "6107bbc9",
+                "type": "type2"
+            },
+            "General demographics": {
+                "code": "43fdf5c7",
+                "type": "type2"
+            },
+            "Population age structure": {
+                "code": "6285428d",
+                "type": "type2"
+            },
+            "Labour force: total civilian employment": {
+                "code": "5214c654",
+                "type": ""
+            }
+        },
+        "Economic References": {
+            "Economic References - Key Indicators": {
+                "code": "20624efe",
+                "type": "type2"
+            },
+            "Macro-economic references": {
+                "code": "984e39b8",
+                "type": "type2"
+            },
+            "Monetary conversion rates": {
+                "code": "65581ef8",
+                "type": "type2"
+            }
+        }
+    }
+}
