@@ -91,7 +91,7 @@ class IndexList(APIView):
         # },status=status.HTTP_200_OK)
 
 
-        # 制作空间维度字典
+        # 制作空间维度类型字典
         lst = queryset.values_list('SpatialDimType',flat=True)
         SpatialDimType = list(set(lst))
 

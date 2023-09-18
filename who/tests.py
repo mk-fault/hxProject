@@ -14,7 +14,7 @@ dtyps = {
     'Value' : str,
     'Comments' : str,
 }
-df = pd.read_csv('/opt/hxProject/media/who_total3.csv',encoding='utf-8',dtype=dtyps)
+df = pd.read_csv('/home/mk/python/hxProject/media/who_total3.csv',encoding='utf-8',dtype=dtyps)
 df.replace([np.nan], [None],inplace=True)
 dic = df.to_dict(orient='records')
 

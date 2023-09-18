@@ -5,8 +5,8 @@ from rest_framework import status
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.generics import GenericAPIView
 
-from .models import QGModel
-from .serializers import QGModelSerializer
+from .models import QGModel, GSModel
+from .serializers import QGModelSerializer, GSModelSerializer
 from .pagination import MyPageNumberPagination
 
 import pandas as pd
@@ -54,3 +54,25 @@ class QG(APIView):
             return Response({'msg':'上传成功'},status=status.HTTP_201_CREATED)
         else:
             return Response(ser.errors,status=status.HTTP_400_BAD_REQUEST)
+        
+class GS(APIView):
+    permission_classes = [IsAuthenticatedOrReadOnly,]
+
+    def get(self,request):
+        # 获取code参数(必填)
+        code = request.query_params.get('CODE')
+        if not code:
+            return Response({'code':11000,'msg':'code参数必填'},status=status.HTTP_400_BAD_REQUEST)
+        # 获取省份参数
+        prov = request.query_params.get('PROV',None)
+        # 获取数据
+        queryset = GSModel.objects.filter(mea_code=code).order_by('year')
+        if prov:
+            queryset = queryset.filter(prov_code=prov).order_by('year')
+        # 分页
+        paginator = MyPageNumberPagination()
+        page_queryset = paginator.paginate_queryset(queryset,request)
+        # 序列化
+        ser = GSModelSerializer(page_queryset,many=True)
+        # 返回数据
+        return paginator.get_paginated_response(ser.data)

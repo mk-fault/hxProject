@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Create your tests here.
-df = pd.read_csv('/opt/hxProject/media/wb_total.csv',encoding='utf-8')
+df = pd.read_csv('/home/mk/python/hxProject/media/wb_total2.csv',encoding='utf-8')
 df.replace([np.nan], [None],inplace=True)
 dic = df.to_dict(orient='records')
 for item in dic:

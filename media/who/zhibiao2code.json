@@ -1,0 +1,431 @@
+{
+    "World Health Statistics": {
+        "Immunization coverage and vaccine-preventable diseases": {
+            "Measles-containing-vaccine first-dose (MCV1) immunization coverage among 1-year-olds (%)": "WHS8_110",
+            "Hib (Hib3) immunization coverage among 1-year-olds (%)": "WHS4_129",
+            "Rotavirus vaccines completed dose (RotaC) immunization coverage among 1-year-olds (%)": "ROTAC",
+            "Rubella - number of reported cases": "WHS3_57",
+            "Diphtheria - number of reported cases": "WHS3_41",
+            "Total tetanus - number of reported cases": "WHS3_46",
+            "Japanese encephalitis - number of reported cases": "WHS3_42",
+            "Congenital Rubella Syndrome - number of reported cases": "WHS3_55",
+            "Yellow fever - number of reported cases": "WHS3_50",
+            "Neonates protected at birth against neonatal tetanus (PAB) (%)": "WHS4_128",
+            "Mumps - number of reported cases": "WHS3_53",
+            "Neonatal tetanus - number of reported cases": "WHS3_56",
+            "Polio (Pol3) immunization coverage among 1-year-olds (%)": "WHS4_544",
+            "Hepatitis B (HepB3) immunization coverage among 1-year-olds (%)": "WHS4_117",
+            "BCG immunization coverage among 1-year-olds (%)": "WHS4_543",
+            "Poliomyelitis - number of reported cases": "WHS3_49",
+            "Pertussis - number of reported cases": "WHS3_43",
+            "Measles - number of reported cases": "WHS3_62"
+        },
+        "Health Financing": {
+            "External health expenditure (EXT) as percentage of current health expenditure (CHE) (%)": "GHED_EXTCHE_SHA2011",
+            "Domestic general government health expenditure (GGHE-D) per capita in US$": "GHED_GGHE-D_pc_US_SHA2011",
+            "Domestic private health expenditure (PVT-D) per capita in US$": "GHED_PVT-D_pc_US_SHA2011",
+            "Out-of-pocket expenditure (OOP) per capita in US$": "GHED_OOP_pc_US_SHA2011",
+            "Current health expenditure (CHE) as percentage of gross domestic product (GDP) (%)": "GHED_CHEGDP_SHA2011",
+            "Domestic general government health expenditure (GGHE-D) as percentage of current health expenditure (CHE) (%)": "GHED_GGHE-DCHE_SHA2011",
+            "Domestic private health expenditure (PVT-D) as percentage of current health expenditure (CHE) (%)": "GHED_PVT-DCHE_SHA2011",
+            "External health expenditure (EXT) per capita in US$": "GHED_EXT_pc_US_SHA2011",
+            "Out-of-pocket expenditure as percentage of current health expenditure (CHE) (%)": "GHED_OOPSCHE_SHA2011",
+            "Domestic general government health expenditure (GGHE-D) as percentage of gross domestic product (GDP) (%)": "GHED_GGHE-DGDP_SHA2011",
+            "Current health expenditure (CHE) per capita in US$": "GHED_CHE_pc_US_SHA2011"
+        },
+        "World Health Statistics": {
+            "Stunting prevalence among children under 5 years of age (%) (model-based estimates)": "NUTSTUNTINGPREV",
+            "Overweight prevalence among children under 5 years of age (%) (% weight-for-height >+2 SD)  (survey-based estimates)": "NUTOVERWEIGHTPREV",
+            "Measles-containing-vaccine second-dose (MCV2) immunization coverage by the nationally recommended age (%)": "MCV2",
+            "Diphtheria tetanus toxoid and pertussis (DTP3) immunization coverage among 1-year-olds (%)": "WHS4_100",
+            "Population with basic handwashing facilities at home (%)": "WSH_HYGIENE_BASIC",
+            "Domestic general government health expenditure (GGHE-D) as percentage of general government expenditure (GGE) (%)": "GHED_GGHE-DGGE_SHA2011"
+        },
+        "Joint child malnutrition estimates (JME) (UNICEF-WHO-WB)": {
+            "Overweight among children under 5 years of age (number in millions) (model-based estimates)": "NUTOVERWEIGHTNUM"
+        }
+    },
+    "Health workforce": {
+        "Global Health Workforce statistics database": {
+            "Nursing personnel (%)": "HWF_0026",
+            "Pharmacists (per 10 000 population)": "HWF_0014",
+            "Medical doctors (per 10 000 population)": "HWF_0001",
+            "Medical doctors not further defined (number)": "HWF_0005",
+            "Midwifery personnel (number)": "HWF_0009",
+            "Nursing and midwifery personnel (number)": "HWF_0007",
+            "Dentists (number)": "HWF_0011",
+            "Traditional and Complementary Medicine Professionals (number)": "HWF_0023",
+            "Nursing personnel (number)": "HWF_0008",
+            "Community Health Workers (number)": "HWF_0024",
+            "Pharmaceutical Technicians and Assistants (number)": "HWF_0016",
+            "Medical doctors (number)": "HWF_0002",
+            "Medical doctors (%)": "HWF_0025",
+            "Physiotherapists (number)": "HWF_0021",
+            "Pharmacists (number)": "HWF_0015",
+            "Dental Assistants and Therapists (number)": "HWF_0012",
+            "Physiotherapy Technicians and Assistants (number)": "HWF_0022",
+            "Medical and Pathology Laboratory Technicians (number)": "HWF_0020",
+            "Generalist medical practitioners (number)": "HWF_0003",
+            "Nursing and midwifery personnel (per 10 000 population)": "HWF_0006",
+            "Dental Prosthetic Technicians (number)": "HWF_0013",
+            "Medical and Pathology Laboratory scientists (number)": "HWF_0019",
+            "Specialist medical practitioners (number)": "HWF_0004"
+        },
+        "Health workforce data from other sources": {
+            "Nurses working in mental health sector (per 100,000)": "MH_7",
+            "Number of licensed qualified obstetricians actively working": "HRH_42",
+            "Biomedical technicians density (per 10 000 population)": "HRH_45",
+            "Psychologists working in mental health sector (per 100,000)": "MH_9",
+            "Number of licensed qualified surgeons actively working": "HRH_41",
+            "Number of licensed qualified anaesthesiologists actively working": "HRH_43",
+            "Biomedical engineers density (per 10 000 population)": "HRH_40"
+        }
+    },
+    "Health Inequality Monitor": {
+        "Health inequality monitor: Maternal health interventions": {
+            "Births attended by skilled health personnel (%)": "MDG_0000000025",
+            "Antenatal care coverage - at least four visits (%)": "WHS4_154",
+            "Births attended by skilled health personnel (in the five years preceding the survey) (%)": "sba5",
+            "Antenatal care coverage - at least four visits (in the five years preceding the survey) (%)": "anc45",
+            "Births attended by skilled health personnel (in the two or three years preceding the survey) (%)": "sba",
+            "Antenatal care coverage - at least one visit (in the two or three years preceding the survey) (%)": "anc1",
+            "Births by caesarean section (in the five years preceding the survey) (%)": "csection5",
+            "Antenatal care coverage - at least four visits (in the two or three years preceding the survey) (%)": "anc4",
+            "Births by caesarean section (in the two or three years preceding the survey) (%)": "csection",
+            "Births by caesarean section (%)": "WHS4_115",
+            "Pregnant women sleeping under insecticide-treated nets (%)": "itnwm",
+            "Antenatal care coverage - at least one visit (in the five years preceding the survey) (%)": "anc15"
+        },
+        "Health inequality monitor: Reproductive, maternal, newborn and child health interventions (RMNCH), combined": {
+            "Composite coverage index (%)": "cci2030"
+        },
+        "Health inequality monitor: Health outcomes": {
+            "Neonatal mortality rate (deaths per 1000 live births)": "nmr",
+            "Overweight prevalence in children aged < 5 years (%) (Health Inequality Monitor)": "overwgt5",
+            "Adolescent fertility rate (per 1000 women aged 15-19 years)": "asfr1",
+            "Total fertility rate (births per woman) (Health Inequality Monitor)": "tfr",
+            "Obesity prevalence in non-pregnant women aged 15-49 years, BMI >= 30 (%)": "bmi30wm",
+            "Neonatal mortality rate (per 1000 live births)": "WHOSIS_000003",
+            "Underweight prevalence in children aged < 5 years (%) (Health inequality monitor)": "uwgt5",
+            "Stunting prevalence in children aged < 5 years (%)": "stunt5",
+            "Severe wasting prevalence in children aged < 5 years (%)": "sevwast5",
+            "Wasting prevalence in children aged < 5 years (%)": "wast5"
+        },
+        "Health inequality monitor: Reproductive health interventions": {
+            "Demand for family planning satisfied - modern and traditional methods (%)": "fps",
+            "Demand for family planning satisfied - modern methods (%)": "fpsmo"
+        },
+        "Health inequality monitor: Newborn and child health interventions": {
+            "Children aged < 5 years with pneumonia symptoms taken to a health facility (%)": "carep",
+            "BCG immunization coverage among one-year-olds (%)": "vbcg",
+            "Full immunization coverage among one-year-olds (%)": "vfull",
+            "Children aged 6-59 months who received vitamin A supplementation (%)": "vita",
+            "Polio immunization coverage among one-year-olds (%)": "vpolio",
+            "Children aged < 5 years with diarrhoea receiving oral rehydration therapy and continued feeding (%)": "ort",
+            "Children aged < 5 years with diarrhoea receiving oral rehydration salts (%)": "ors",
+            "DTP3 immunization coverage among one-year-olds (%)": "vdpt",
+            "Measles immunization coverage among one-year-olds (%)": "vmsl"
+        }
+    },
+    "SDG Target 3.8 | Achieve universal health coverage (UHC)": {
+        "SDG 3.8.1 Coverage of essential health services": {
+            "UHC Service Coverage sub-index on noncommunicable diseases": "UHC_SCI_NCD",
+            "UHC Service Coverage sub-index on reproductive, maternal, newborn and child health": "UHC_SCI_RMNCH",
+            "UHC Service Coverage Index (SDG 3.8.1)": "UHC_INDEX_REPORTED",
+            "UHC Service Coverage sub-index on infectious diseases": "UHC_SCI_INFECT"
+        },
+        "SDG 3.8.2 Catastrophic health spending (and related indicators)": {
+            "Households with out-of-pocket payments greater than 40% of capacity to pay for health care (food, housing and utilities approach - developed by WHO/Europe) (%)": "FINPROTECTION_CATA_CTPFHU_40_HH",
+            "Households impoverished by out-of-pocket payments (relative poverty line reflecting basic needs: food, housing, utilities) (%)": "FINPROTECTION_IMP_BNLFHU_P_HH",
+            "Households further impoverished by out-of-pocket payments (relative poverty line reflecting basic needs: food, housing, utilities) (%)": "FINPROTECTION_IMP_BNLFHU_FURIMP_HH",
+            "Households pushed below or further below a relative poverty line (reflecting basic needs: food, housing, utilities) by out-of-pocket payments (%)": "FINPROTECTION_IMP_BNLFHU_TOT_HH",
+            "Increase in poverty gap due to household health expenditures, expressed as a proportion of the $1.90 a-day poverty line (%, national, rural, urban)": "FINPROTECTION_IMP_PG_190_STD"
+        }
+    },
+    "Priority health technologies": {
+        "Medical devices": {
+            "Procurement of medical devices carried out at the national level": "DEVICES17",
+            "Availability of national list of approved medical devices for procurement or reimbursement": "DEVICES18",
+            "Unit in the Ministry of Health responsible for the management of medical devices": "DEVICES16",
+            "Total density per million population: Gamma camera or Nuclear medicine": "DEVICES11",
+            "Total density per million population: Radiotherapy units": "DEVICES22",
+            "Total density per million population: Computed tomography units": "DEVICES09",
+            "Total density per million population: Positron Emission tomography": "DEVICES10",
+            "Total density per million population: Magnetic Resonance Imaging": "DEVICES08",
+            "National guidelines, policies or recommendations on the procurement of medical devices": "DEVICES19",
+            "Availability of technical specifications of medical devices to support procurement or donations": "DEVICES20",
+            "Types of lists recommending health technology for high burden diseases": "DEVICES07",
+            "Total density per million females aged from 50 to 69 years old: Mammography units": "DEVICES23",
+            "Health technology (medical device) national policy": "DEVICES15",
+            "Total density per million population: Linear Accelerator": "DEVICES12",
+            "Total density per million population: Telecobalt Unit": "DEVICES21",
+            "Availability of national standards or recommended lists of medical devices": "DEVICES06"
+        },
+        "Health infrastructure": {
+            "Total density per 100 000 population: Specialized hospitals": "DEVICES05",
+            "Total density per 100 000 population: Health centres": "DEVICES02",
+            "Total density per 100 000 population: District/rural hospitals": "DEVICES03",
+            "Total density per 100 000 population: Provincial hospitals": "DEVICES04",
+            "Total density per 100 000 population: Health posts": "DEVICES01"
+        }
+    },
+    "Environment and health": {
+        "Second-hand smoke": {
+            "Second-hand smoke attributable deaths ('000) in children under 5 years": "SHS_8",
+            "Second-hand smoke attributable DALYs ('000) in children under 5 years": "SHS_10",
+            "Percentage of children under 15 years exposed to second-hand smoke": "SHS_1",
+            "Percentage of women (15+ years) exposed to second-hand smoke": "SHS_2"
+        },
+        "Climate change": {
+            "Climate change attributable DALYs ('000) in children under 5 years": "CC_7",
+            "Climate change attributable deaths ('000) in children under 5 years": "CC_5"
+        }
+    },
+    "HIV": {
+        "Data on the HIV response": {
+            "Estimated number of pregnant women living with HIV needing antiretrovirals for preventing mother-to-child transmission": "HIV_0000000021",
+            "Estimated number of people (all ages) living with HIV": "HIV_0000000001",
+            "Estimated number of children needing antiretroviral therapy based on WHO methods": "HIV_0000000023",
+            "Estimated percentage of pregnant women living with HIV who received antiretrovirals for preventing mother-to-child transmission": "HIV_0000000020",
+            "Estimated antiretroviral therapy coverage among people living with HIV (%)": "HIV_ARTCOVERAGE",
+            "Estimated antiretroviral therapy coverage among children": "HIV_0000000024",
+            "Reported number of children receiving antiretroviral therapy": "HIV_0000000011",
+            "Number of pregnant women living with HIV who received antiretrovirals for preventing mother-to-child transmission": "HIV_0000000015"
+        }
+    },
+    "Tuberculosis": {
+        "Tuberculosis cases and deaths": {
+            "Number of incident tuberculosis cases in children aged 0 - 14": "TB_e_inc_num_014"
+        }
+    },
+    "Noncommunicable diseases": {
+        "Noncommunicable diseases: National capacity": {
+            "General availability of total cholesterol measurement at the primary health care level": "NCD_CCS_CholMsmt",
+            "General availability of diabetes testing (by HbA1c) at the primary health care level": "NCD_CCS_HbA1c",
+            "General availability of peak flow measurement at the primary health care level": "NCD_CCS_PeakFlow",
+            "General availability of diabetes testing (by blood glucose measurement, OGTT) at the primary health care level": "NCD_CCS_diabtest",
+            "Existence of national screening program for cervical cancer": "NCD_CCS_cervicalcancerscreening",
+            "Existence of any policies on marketing of foods to children": "NCD_CCS_Mkting",
+            "Existence of national screening program for breast cancer": "NCD_CCS_breastcancerscreening",
+            "Availability of cardiovascular risk stratification in 50% or more primary health care facilities": "NCD_CCS_riskstrat"
+        },
+        "Noncommunicable diseases: Risk factors": {
+            "Prevalence of overweight among children and adolescents, BMI > +1 standard deviations above the median (crude estimate) (%)": "NCD_BMI_PLUS1C",
+            "Prevalence of obesity among children and adolescents, BMI > +2 standard deviations above the median (crude estimate) (%)": "NCD_BMI_PLUS2C"
+        }
+    },
+    "Air pollution": {
+        "Ambient air pollution": {
+            "Ambient air pollution attributable DALYs per 100 000 children under 5 years": "AIR_6",
+            "Ambient air pollution attributable deaths in children under 5 years": "AIR_4",
+            "Ambient air pollution attributable DALYs  in children under 5 years": "AIR_8"
+        },
+        "Household air pollution": {
+            "Household air pollution attributable deaths in children under 5 years": "AIR_12",
+            "Household air pollution attributable DALYs in children under 5 years": "AIR_16"
+        }
+    },
+    "Nutrition": {
+        "Breastfeeding and low birth weight": {
+            "Early initiation of breastfeeding (%)": "NUTRITION_570",
+            "Early initiation of breastfeeding (in the two years preceding the survey) (%)": "bfearly",
+            "Low birth weight (in thousands)": "LBW_NUMBER",
+            "Low birth weight, prevalence (%)": "LBW_PREVALENCE"
+        }
+    },
+    "Global Health Estimates: Life expectancy and leading causes of death and disability": {
+        "Child mortality and causes of death": {
+            "Number of neonatal deaths": "CM_03",
+            "Infant mortality rate (probability of dying between birth and age 1 per 1000 live births)": "MDG_0000000001",
+            "Distribution of causes of death among children aged < 5 years (%)": "MORT_300",
+            "Deaths per 1 000 live births": "MORT_200",
+            "Under-five mortality rate (probability of dying by age 5 per 1000 live births)": "MDG_0000000007",
+            "Number of infant deaths": "CM_02",
+            "Stillbirth rate (per 1000 total births)": "WHOSIS_000014",
+            "Under-five mortality rate (deaths per 1000 live births)": "u5mr",
+            "Infant mortality rate (deaths per 1000 live births)": "imr"
+        },
+        "Life expectancy and life tables": {
+            "Life expectancy at birth (years)": "WHOSIS_000001",
+            "Healthy life expectancy (HALE) at birth (years)": "WHOSIS_000002",
+            "Life expectancy at age 60 (years)": "WHOSIS_000015"
+        },
+        "Mortality and global health estimates": {
+            "Adult mortality rate (probability of dying between 15 and 60 years per 1000 population)": "WHOSIS_000004",
+            "Mortality rate for 5-14 year-olds (probability of dying per 1000 children aged 5-14 years)": "CHILDMORT5TO14",
+            "Number of maternal deaths": "MORT_MATERNALNUM"
+        }
+    },
+    "Health systems": {
+        "Health systems - Health financing": {
+            "Median consumer price ratio of selected generic medicines - Private": "WHS6_116",
+            "Median consumer price ratio of selected generic medicines - Public": "MDG_0000000011"
+        },
+        "Pharmaceuticals,drugs and supplies": {
+            "Median availability of selected generic medicines (%) - Public": "MDG_0000000010",
+            "Median availability of selected generic medicines (%) - Private": "WHS6_101"
+        }
+    },
+    "Sexually Transmitted Infections": {
+        "Data on syphilis": {
+            "Women accessing antenatal care (ANC) services who were tested for syphilis (%)": "PerctestedANC",
+            "Antenatal care attendees positive for syphilis who received treatment (%)": "PerctreatedANC",
+            "Congenital syphilis rate per 100 000 live births": "RateCS",
+            "Antenatal care attendees who were positive for syphilis (%)": "PercposANC"
+        },
+        "Sexually Transmitted Infections - Risk factors": {
+            "Prevalence of condom use by adults during higher-risk sex (15-49) (%)": "MDG_0000000015",
+            "Population aged 15-24 years with comprehensive correct knowledge of HIV/AIDS (%)": "MDG_0000000021"
+        }
+    },
+    "Maternal and reproductive health": {
+        "Maternal and reproductive health": {
+            "Number of non-pregnant women (aged 15-49 years) with anaemia (thousands)": "NUTRITION_ANAEMIA_NONPREGNANT_NUM",
+            "Number of pregnant women (aged 15-49 years) with anaemia (thousands)": "NUTRITION_ANAEMIA_PREGNANT_NUM",
+            "Number of women of reproductive age (aged 15-49 years) with anaemia (thousands)": "NUTRITION_ANAEMIA_REPRODUCTIVEAGE_NUM",
+            "Prevalence of anaemia in pregnant women (aged 15-49) (%)": "NUTRITION_ANAEMIA_PREGNANT_PREV",
+            "Prevalence of anaemia in non-pregnant women (aged 15-49) (%)": "NUTRITION_ANAEMIA_NONPREGNANT_PREV",
+            "Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting (FMG/C) (%)": "SH_STA_FGMS",
+            "Adolescent birth rate (per 1000 women aged 15-19 years)": "MDG_0000000003",
+            "Prevalence of anaemia in women of reproductive age (aged 15-49) (%)": "NUTRITION_ANAEMIA_REPRODUCTIVEAGE_PREV"
+        },
+        "Women married or in a union before age 15 and 18": {
+            "Proportion of women aged 20-24 years who were married or in a union by age 18 (%)": "SP_DYN_MRBF18",
+            "Proportion of women aged 20-24 years who were married or in a union by age 15 (%)": "SP_DYN_MRBF15"
+        },
+        "SDG Target 3.1: Reduce the global maternal mortality ratio to less than 70 per 100,000 live births": {
+            "Maternal mortality ratio (per 100 000 live births)": "MDG_0000000026"
+        },
+        "Anaemia in women and children": {
+            "Number of children aged 6\u201359 months with anaemia (thousands)": "NUTRITION_ANAEMIA_CHILDREN_NUM",
+            "Prevalence of anaemia in children aged 6\u201359 months (%)": "NUTRITION_ANAEMIA_CHILDREN_PREV"
+        }
+    },
+    "Road Safety": {
+        "National Legislation": {
+            "Existence of a national child-restraint law": "RS_213"
+        }
+    },
+    "Neglected tropical diseases": {
+        "Leprosy (Hansen's disease)": {
+            "Leprosy - Number of new leprosy cases among children (less than 15 years of age)": "NTD_LEPR8"
+        }
+    },
+    "Resources for Substance Use Disorders": {
+        "Service organization and delivery": {
+            "HIV, Hepatitis counselling and treatment availability in specialized facilities and services": "RSUD_620",
+            "Treatment programmes for women with drug use disorders": "RSUD_670",
+            "Treatment programmes for women with alcohol use disorders": "RSUD_660",
+            "Treatment programmes for children and adolescents with drug use disorders": "RSUD_900",
+            "Recommendations for screening and brief interventions for substance use in primary health care": "RSUD_550",
+            "Screening and brief intervention for substance use in primary health care": "RSUD_530",
+            "Treatment programmes for children and adolescents with alcohol use disorders": "RSUD_890"
+        },
+        "Youth": {
+            "Epidemiological data collection system for substance use among children and adolescents": "RSUD_880"
+        }
+    },
+    "Violence prevention": {
+        "Services for victims": {
+            "Extent of implementation of child protection services": "VIOLENCE_EXTENTIMP_CHILDPROTECTION"
+        },
+        "Burden of violence and exposure to violence": {
+            "Lifetime prevalence of child emotional abuse (%)": "VIOLENCE_CHILD_EMOTIONAL",
+            "Lifetime prevalence of child sexual abuse (%)": "VIOLENCE_CHILD_SEXUAL",
+            "Lifetime prevalence of child physical abuse (%)": "VIOLENCE_CHILD_PHYSICAL",
+            "Lifetime prevalence of child physical neglect (%)": "VIOLENCE_CHILD_NEGLECT"
+        },
+        "Prevention programmes": {
+            "Child maltreatment: Extent of implementation of home-visiting programmes": "VIOLENCE_EXTENTIMP_CHILDHOMEVISIT"
+        }
+    },
+    "Child malnutrition and mortality": {
+        "Infant nutrition": {
+            "Infants exclusively breastfed for the first six months of life (%)": "WHOSIS_000006"
+        }
+    },
+    "Violence against women": {
+        "Intimate partner violence and non-partner sexual violence": {
+            "Non-partner sexual violence prevalence (%)": "RHR_NPSV"
+        }
+    },
+    "Others": {
+        "Water, sanitation and hygiene attributable deaths ('000) in children under 5 years": "WSH_2",
+        "Stunting numbers among children under 5 years of age (millions), model-based estimates": "NUTSTUNTINGNUM",
+        "Population with household spending on health greater than 25% of total household budget (SDG 3.8.2, estimated data) (millions)": "FINPROTECTION_CATA_TOT_25_LEVEL_MILLION",
+        "Wasting prevalence among children under 5 years of age (% weight-for-height < -2 SD)": "NUTRITION_WH_2",
+        "Severe wasted prevalence among children under 5 years of age   (% weight-for-height < -3 SD), survey-based estimates": "NUTRITION_WH_3",
+        "Prevalence of thinness among children and adolescents, BMI < -2 standard deviations below the median (crude estimate) (%)": "NCD_BMI_MINUS2C",
+        "Women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods (%)": "SDGFPALL",
+        "Total density per 100 000 population  Hospitals": "DEVICES00",
+        "New leprosy child case detection rate (less than 15 years of age) per 1 000 000 child population": "NTD_LEPR13",
+        "Number of new leprosy cases with G2D among children (less than 15 years of age)": "NTD_LEPR9",
+        "Wasted prevalence among children under 5 years of age (%), model-based estimates": "NUTWASTINGPREV",
+        "Number of under-five deaths": "CM_01",
+        "Prevalence of daily e-cigarette use among adolescents (%)": "Yth_daily_e-cig",
+        "Proportion of ever-partnered women and girls aged 15\u201349 years subjected to physical and or sexual violence by a current or former intimate partner in the previous 12 months": "SDGIPV12M",
+        "Prevalence of current tobacco smoking among adolescents (%)": "Yth_curr_tob_smoking",
+        "Pneumococcal conjugate vaccines (PCV3) immunization coverage among 1-year-olds (%)": "PCV3",
+        "Prevalence of daily smokeless tobacco use among adolescents (%)": "Yth_daily_smokeless",
+        "Insufficiently active (crude estimate)": "NCD_PAC_ADO",
+        "Prevalence of current cigarette smoking among adolescents (%)": "Yth_curr_cig_smoking",
+        "Which allows individuals electronic access to their own health-related data when held in an EHR": "GOE_Q175",
+        "Women of reproductive age (15\u221249 years) who are married or in-union who have their need for family planning satisfied with modern methods (%), UNPD": "FAMILYPLANNINGUNPDUHC",
+        "Existence of national HPV vaccination programme": "NCD_CCS_hpv",
+        "Total population pushed below a relative poverty line by household health expenditures (60% of median daily per capita consumption or income) (%)": "FINPROTECTION_IMP_NP_REL_LEVEL_SH",
+        "Regulating mobile devices and software": "GOE_Q030_1",
+        "Hospital beds (per 10 000 population)": "WHS6_102",
+        "Prevalence of daily tobacco smoking among adolescents (%)": "Yth_daily_tob_smoking",
+        "Proportion of donor non public development funding": "GOE_Q014",
+        "Private funding for eHealth": "GOE_Q008",
+        "Nicotine replacement therapy - place available": "O_NRT_where",
+        "Number of reported cases of poliomyelitis by wild poliovirus (WPV)": "VACCINEPREVENTABLE_WILDPOLIO",
+        "Total population pushed below a relative poverty line by household health expenditures (60% of median daily per capita consumption or income) (millions)": "FINPROTECTION_IMP_NP_REL_LEVEL_MILLION",
+        "Population pushed below the $3.20 a day poverty line by household health expenditures (%)": "FINPROTECTION_IMP_NP310_POP",
+        "Population with household spending on health greater than 25% of total household budget (SDG 3.8.2, reported data) (%)": "FINPROTECTION_CATA_TOT_25_POP",
+        "Children aged < 5 years with pneumonia symptoms taken to a healthcare provider (%)": "WHS4_106",
+        "Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, estimated data) (%)": "FINPROTECTION_CATA_TOT_10_LEVEL_SH",
+        "Household air pollution attributable DALYs (per 100 000, age-standardized)": "AIR_39",
+        "Underweight prevalence among children under 5 years of age (%), model-based estimates": "NUTUNDERWEIGHTPREV",
+        "Year of most recent adolescent survey": "Youth_svy_yr",
+        "Increase in poverty gap due to household health expenditures, expressed as a proportion of a relative poverty line (60% of median daily per capita consumption or income) (%)": "FINPROTECTION_IMP_PG_RELPL_STD",
+        "Water, sanitation and hygiene attributable DALYs ('000) in children under 5 years": "WSH_6",
+        "Public-private partnerships for eHealth": "GOE_Q010",
+        "Population pushed below the $1.90 a day poverty line by household health expenditures (%)": "FINPROTECTION_IMP_NP190_POP",
+        "UHC Service Coverage sub-index on service capacity and access": "UHC_SCI_CAPACITY",
+        "Children aged <5 years sleeping under insecticide-treated nets (%)": "itnch",
+        "Pregnant women attending antenatal care at least once and receiving at least 3 doses of Intermittent Preventive Treatment of Malaria for Pregnant Women (IPTp3) (%)": "MALARIA_IPTP3_COVERAGE",
+        "Prevalence of current tobacco use among adolescents (%)": "Yth_curr_tob_use",
+        "Representativeness of most recent adolescent survey": "Youth_svy_national",
+        "Title of most recent adolescent survey": "Youth_survey_title",
+        "Total population pushed below the $1.90 a day poverty line by household health expenditures (%)": "FINPROTECTION_IMP_NP_190_LEVEL_SH",
+        "Promoting the development and adoption of mHealth": "GOE_Q030_5",
+        "Severe wasted prevalence among children under 5 years of age (%), model-based estimates": "NUTSEVWASTINGPREV",
+        "Proportion of private funding": "GOE_Q013",
+        "Population with household spending on health greater than 25% of total household budget (SDG 3.8.2, estimated data) (%)": "FINPROTECTION_CATA_TOT_25_LEVEL_SH",
+        "Prevalence of daily cigarette smoking among adolescents (%)": "Yth_daily_cig_smoking",
+        "Public funding for eHealth": "GOE_Q007",
+        "Increase in poverty gap due to household health expenditures, expressed as a proportion of the 3.20 a-day poverty line (%, national, rural, urban)": "FINPROTECTION_IMP_PG_310_STD",
+        "Institutional Births (birth taken place in a facility) (%)": "SRHINSTITUTIONALBIRTH",
+        "Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, estimated data) (millions)": "FINPROTECTION_CATA_TOT_10_LEVEL_MILLION",
+        "Wasted numbers among children under 5 years of age (millions), model-based estimates": "NUTWASTINGNUM",
+        "Underweight\u00a0prevalence among children under 5 years of age (% weight-for-age < -2 SD) (%)": "NUTRITION_WA_2",
+        "Prevalence of current e-cigarette use among adolescents (%)": "Yth_curr_e-cig",
+        "Severe wasted numbers among children under 5 years of age (millions), model-based estimates": "NUTSEVWASTINGNUM",
+        "Children aged <5 years with diarrhoea receiving ORS (%)": "UNICEF_ORS",
+        "Population with household spending on health greater than 10% of total household budget (SDG 3.8.2, reported data) (%)": "FINPROTECTION_CATA_TOT_10_POP",
+        "ex - expectation of life at age x": "LIFE_0000000035",
+        "Underweight numbers among children under 5 years of age (millions), model-based estimates": "NUTUNDERWEIGHTNUM",
+        "Prevalence of current smokeless tobacco use among adolescents (%)": "Yth_curr_smokeless",
+        "Density of outpatient health centres (per 100,000 population)": "GDO_q9x5_1",
+        "Total population pushed below the $3.20 a day poverty line by household health expenditures (%)": "FINPROTECTION_IMP_NP_310_LEVEL_SH",
+        "Donor  non-public development funding for eHealth": "GOE_Q009",
+        "Total population pushed below the $3.20 a day poverty line by household health expenditures (millions)": "FINPROTECTION_IMP_NP_310_LEVEL_MILLION",
+        "Number of deaths": "MORT_100",
+        "Outpatient health centres": "GDO_q9_5",
+        "Proportion of public funding": "GOE_Q012",
+        "Improving access to content and experts": "GOE_Q119_2",
+        "Proportion ofpublic private partnerships funding": "GOE_Q015",
+        "Total population pushed below the $1.90 a day poverty line by household health expenditures (millions)": "FINPROTECTION_IMP_NP_190_LEVEL_MILLION"
+    }
+}

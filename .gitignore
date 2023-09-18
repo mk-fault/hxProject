@@ -161,3 +161,5 @@ cython_debug/
 
 # log
 /logs/*
+/media/*.xlsx
+/media/*.csv
