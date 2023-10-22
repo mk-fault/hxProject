@@ -45,7 +45,7 @@ dtypes = {
     'CODE' : str,
 }
 
-df = pd.read_csv('/home/mk/python/hxProject/media/type2.csv',encoding='utf-8',dtype=dtypes)
+df = pd.read_csv('/home/mk/python/hxProject/media/type2_2.csv',encoding='utf-8',dtype=dtypes)
 df.replace([np.nan], [None],inplace=True)
 dic = df.to_dict(orient='records')
 for i in dic:
@@ -75,7 +75,7 @@ dtypes = {
     'CODE' : str,
 }
 
-df = pd.read_csv('/home/mk/python/hxProject/media/type3.csv',encoding='utf-8',dtype=dtypes)
+df = pd.read_csv('/home/mk/python/hxProject/media/type3_2.csv',encoding='utf-8',dtype=dtypes)
 df.replace([np.nan], [None],inplace=True)
 dic = df.to_dict(orient='records')
 for i in dic:

@@ -27,33 +27,7 @@
             },
             "Input costs for health care providers": {
                 "code": "0acdd44a",
-                "type": ""
-            },
-            "Gross fixed capital formation in the health care system": {
-                "code": "5e4126a3",
-                "type": ""
-            },
-            "Expenditure by disease, age and gender under the System of Health Accounts (SHA) Framework": {
-                "Current health spending by disease (ICD)": {
-                    "code": "f1c67887",
-                    "type": ""
-                },
-                "Inpatient/Hospital spending by disease (ICD)": {
-                    "code": "61cb4cfb",
-                    "type": ""
-                },
-                "Outpatient/ambulatory spending by disease (ICD)": {
-                    "code": "002932ff",
-                    "type": ""
-                },
-                "Medical goods spending by disease (ICD)": {
-                    "code": "549eeb3f",
-                    "type": ""
-                },
-                "Current health spending by age": {
-                    "code": "3b3141bb",
-                    "type": ""
-                }
+                "type": "type3"
             }
         },
         "Health Status": {
@@ -103,7 +77,7 @@
             },
             "Infant health: low birthweight": {
                 "code": "60a8bbb3",
-                "type": ""
+                "type": "type2"
             },
             "Communicable diseases": {
                 "code": "ad648f41",
@@ -331,10 +305,6 @@
                 "code": "0d6e2c00",
                 "type": "type6"
             },
-            "Mental Health - Patient Reported Experience Measures": {
-                "code": "da9bb0ef",
-                "type": ""
-            },
             "Patient Safety": {
                 "code": "7fca8f4d",
                 "type": "type6"
@@ -369,7 +339,7 @@
             },
             "Long-term care workers: formal sector": {
                 "code": "e2b42b4b",
-                "type": ""
+                "type": "type2"
             },
             "Formal long-term care workers at home": {
                 "code": "613894b7",
@@ -381,7 +351,7 @@
             },
             "Long-term care formal workers: Working conditions": {
                 "code": "db0ff87c",
-                "type": ""
+                "type": "type2"
             },
             "Beds in residential long-term care facilities": {
                 "code": "ea8c447e",
@@ -403,7 +373,7 @@
             },
             "Government/compulsory health insurance": {
                 "code": "432c9323",
-                "type": ""
+                "type": "type2"
             },
             "Voluntary health insurance": {
                 "code": "73808cc0",
@@ -425,7 +395,7 @@
             },
             "Labour force: total civilian employment": {
                 "code": "5214c654",
-                "type": ""
+                "type": "type2"
             }
         },
         "Economic References": {
