@@ -8,6 +8,9 @@ class QGModel(models.Model):
     value = models.FloatField(verbose_name="值",help_text="值")
 
     class Meta:
+        indexes = [
+            models.Index(fields=['code'], name='code_idx'),
+        ]
         db_table = "stats_qg"
         verbose_name = "全国指标"
         verbose_name_plural = verbose_name
@@ -20,6 +23,9 @@ class GSModel(models.Model):
     year = models.IntegerField(verbose_name="年份",help_text="年份")
     value = models.FloatField(verbose_name="值",help_text="值")
     class Meta:
+        indexes = [
+            models.Index(fields=['mea_code'], name='mea_code_idx'),
+        ]
         db_table = "stats_gs"
         verbose_name = "各省指标"
         verbose_name_plural = verbose_name

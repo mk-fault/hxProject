@@ -18,6 +18,9 @@ class OECDModel_T1(models.Model):
     Flags = models.CharField(max_length=80,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
+        indexes = [
+            models.Index(fields=['Code'], name='t1_code_idx'),
+        ]
         verbose_name = 'OECDModel_T1'
         verbose_name_plural = verbose_name
         db_table = 'OECDModel_T1'
@@ -36,6 +39,9 @@ class OECDModel_T2(models.Model):
     Flags = models.CharField(max_length=80,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
+        indexes = [
+            models.Index(fields=['Code'], name='t2_code_idx'),
+        ]
         verbose_name = 'OECDModel_T2'
         verbose_name_plural = verbose_name
         db_table = 'OECDModel_T2'
@@ -56,6 +62,9 @@ class OECDModel_T3(models.Model):
     Flags = models.CharField(max_length=30,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
+        indexes = [
+            models.Index(fields=['Code'], name='t3_code_idx'),
+        ]
         verbose_name = 'OECDModel_T3'
         verbose_name_plural = verbose_name
         db_table = 'OECDModel_T3'
@@ -82,6 +91,9 @@ class OECDModel_T4(models.Model):
     Flags = models.CharField(max_length=80,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
+        indexes = [
+            models.Index(fields=['Code'], name='t4_code_idx'),
+        ]
         verbose_name = 'OECDModel_T4'
         verbose_name_plural = verbose_name
         db_table = 'OECDModel_T4'
@@ -100,6 +112,9 @@ class OECDModel_T5(models.Model):
     Flags = models.CharField(max_length=30,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
+        indexes = [
+            models.Index(fields=['Code'], name='t5_code_idx'),
+        ]
         verbose_name = 'OECDModel_T5'
         verbose_name_plural = verbose_name
         db_table = 'OECDModel_T5'
@@ -122,6 +137,9 @@ class OECDModel_T6(models.Model):
     Flags = models.CharField(max_length=40,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
+        indexes = [
+            models.Index(fields=['Code'], name='t6_code_idx'),
+        ]
         verbose_name = 'OECDModel_T6'
         verbose_name_plural = verbose_name
         db_table = 'OECDModel_T6'
@@ -143,6 +161,9 @@ class OECDModel_T7(models.Model):
     Flags = models.CharField(max_length=30,verbose_name='Flags',help_text='Flags',blank=True,null=True)
 
     class Meta:
+        indexes = [
+            models.Index(fields=['Code'], name='t7_code_idx'),
+        ]
         verbose_name = 'OECDModel_T7'
         verbose_name_plural = verbose_name
         db_table = 'OECDModel_T7'

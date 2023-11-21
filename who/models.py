@@ -18,6 +18,9 @@ class WHOModel(models.Model):
     NumericValue = models.FloatField(verbose_name='数值',help_text='数值',blank=True,null=True)
 
     class Meta:
+        indexes = [
+            models.Index(fields=['IndicatorCode'], name='code_dim1_idx'),
+        ]
         db_table = 'who'
         verbose_name = '世界卫生组织数据'
         verbose_name_plural = verbose_name

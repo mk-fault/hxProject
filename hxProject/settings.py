@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'wb',
     'who',
     'oecd',
+    'gbd',
     'django_cleanup.apps.CleanupConfig', # 清理无用文件
 ]
 

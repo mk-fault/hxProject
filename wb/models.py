@@ -10,6 +10,9 @@ class WBModel(models.Model):
     value = models.FloatField(verbose_name="值",help_text="值",blank=True,null=True)
 
     class Meta:
+        indexes = [
+            models.Index(fields=['Indicator_Code'], name='indicator_idx'),
+        ]
         db_table = "wb"
         verbose_name = "worldbank"
         verbose_name_plural = verbose_name
