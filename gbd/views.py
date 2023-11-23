@@ -43,22 +43,39 @@ class GBD(APIView):
         # 查询数据
         if year and location:
             sql_query = f"select * from {title} where year={year} and location='{location}' limit {page_size} offset {(page-1)*page_size}"
+            sql_query_count = f"select count(*) from {title} where year={year} and location='{location}'"
         elif year:
             sql_query = f"select * from {title} where year={year} limit {page_size} offset {(page-1)*page_size}"
+            sql_query_count = f"select count(*) from {title} where year={year}"
         elif location:
             sql_query = f"select * from {title} where location='{location}' limit {page_size} offset {(page-1)*page_size}"
+            sql_query_count = f"select count(*) from {title} where location='{location}'"
         else:
             sql_query = f"select * from {title} limit {page_size} offset {(page-1)*page_size}"
+            sql_query_count = f"select count(*) from {title}"
 
         try:
             df = pd.read_sql(sql_query,db)
+            df_count = pd.read_sql(sql_query_count,db)
         except:
-            return Response({'code':50003,'msg':'查询失败'},status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            return Response({'code':50003,'msg':'查询失败, 请检查该表是否有year或location字段'},status=status.HTTP_500_INTERNAL_SERVER_ERROR)
         
         db.dispose()
         # 制作返回数据
         df.replace([np.nan], [None],inplace=True)
-        return_data = df.to_dict(orient='records')
+        return_data = {}
+        total_count = df_count.iloc[0,0]
+        total_page = total_count // page_size + 1
+        current_page = page
+        if current_page > total_page:
+            return Response({'code':50004,'msg':'页码超出范围'},status=status.HTTP_400_BAD_REQUEST)
+        current_page_size = len(df)
+        data = df.to_dict(orient='records')
+        return_data['total_count'] = total_count
+        return_data['total_page'] = total_page
+        return_data['current_page'] = current_page
+        return_data['current_page_size'] = current_page_size
+        return_data['data'] = data
         return Response(return_data,status=status.HTTP_200_OK)
 
 

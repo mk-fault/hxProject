@@ -160,6 +160,8 @@ cython_debug/
 #.idea/
 
 # log
-/logs/*
+/logs/*.log
 /media/*.xlsx
 /media/*.csv
+/hxProject/*.ini
+/hxProject/*.pid
